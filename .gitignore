@@ -1,0 +1,18 @@
+# Terraform files
+.terraform
+terraform.tfstate
+terraform.tfvars
+terraform.tfvars.json
+*.tfstate*
+.terragrunt
+.terragrunt-cache
+.terraform.lock.hcl
+terraform.tfstate.backup
+# IDE files
+.idea
+.vscode
+*.iml
+vendor
+
+# Folder used to store temporary test data by Terratest
+.test-data
