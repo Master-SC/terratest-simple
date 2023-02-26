@@ -30,6 +30,8 @@ This is the folder where all the terratest test scriprs are present with _test.g
 1. Check GO is present in your system `go version`
 1. Initialize Go dependencies run `go mod init "test/terraform_example_test"` it will initiate all the required dependencies which are required to test our Terratest Test. After executing successfully `go.mod` file should be generated. 
 1. For chcek sum the modules run `go mod tidy`, A `go.sum` File should be generated. 
+
+## to run Terratest Tests
 1.  To run the Tests run `go test -v -timeout 30m`. Or if you want to run a specific test then run `go test terraform_example_test.go`
 
 
