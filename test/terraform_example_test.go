@@ -1,9 +1,10 @@
 package test
 
 import (
+	"testing"
+
 	"github.com/gruntwork-io/terratest/modules/terraform"
 	"github.com/stretchr/testify/assert"
-	"testing"
 )
 
 func TestTerraformExample(t *testing.T) {
@@ -18,5 +19,5 @@ func TestTerraformExample(t *testing.T) {
 	terraform.InitAndApply(t, terraformOptions)
 
 	output := terraform.Output(t, terraformOptions, "my_ip_address")
-	assert.Equal(t, "3.87.89", output)
+	assert.Equal(t, "192.168.1.13", output)
 }

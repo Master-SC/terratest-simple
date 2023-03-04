@@ -3,5 +3,5 @@ terraform {
 }
 
 output "my_ip_address" {
-    value="3.87.89"
+    value="192.168.1.13"
 }
