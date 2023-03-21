@@ -1,4 +1,4 @@
-# MYTERRATEST
+# TERRATEST BASICS
 
 This folder contains a very simple Terraform module to demonstrate how to use Terratest to write automated tests for Terraform code. This module takes in an input variable called example, renders it using a template_file data source, and outputs the result in an output variable called "my_ip_address".
 
