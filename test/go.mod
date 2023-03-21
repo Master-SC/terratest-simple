@@ -4,6 +4,7 @@ go 1.20
 
 require (
 	github.com/gruntwork-io/terratest v0.41.11
+	github.com/magiconair/properties v1.8.5
 	github.com/stretchr/testify v1.8.2
 )
 
