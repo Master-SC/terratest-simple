@@ -1,6 +1,6 @@
-# TERRATEST BASICS
+# TERRATEST-SIMPLE
 
-This folder contains a very simple Terraform module to demonstrate how to use Terratest to write automated tests for Terraform code. This module takes in an input variable called example, renders it using a template_file data source, and outputs the result in an output variable called "my_ip_address".
+This repo contains a simple Terraform module to demonstrate how to use Terratest to write automated tests for Terraform code.
 
 # examples Folder
 
@@ -33,5 +33,12 @@ This is the folder where all the terratest test scriprs are present with _test.g
 
 ## to run Terratest Tests
 1.  To run the Tests run `go test -v -timeout 30m`. Or if you want to run a specific test then run `go test terraform_example_test.go`
+
+## Integration with Github CI
+
+This repo is integrated with the Github CI (Github Actions). Any commit made to this repo will result a Terratest test to be trigge. The yml configaration file is present in the below location:
+.github/workflows/ci.yml
+
+
 
 
