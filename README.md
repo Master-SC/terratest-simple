@@ -36,7 +36,7 @@ This is the folder where all the terratest test scriprs are present with _test.g
 
 ## Integration with Github CI
 
-This repo is integrated with the Github CI (Github Actions). Any commit made to this repo will result a Terratest test to be trigge. The yml configaration file is present in the below location:
+This repo is integrated with the Github CI (Github Actions). Any commit made to this repo will result a Terratest test to be trigger. The yml configaration file is present in the below location:
 .github/workflows/ci.yml
 
 
