@@ -38,6 +38,7 @@ func TestTerraformExample(t *testing.T) {
 	defer terraform.Destroy(t, terraformOptions)
 
 	terraform.InitAndApply(t, terraformOptions)
+	
 
 	//Test#1 Baics Test to Assert a value.
 
