@@ -2,8 +2,8 @@ terraform {
   required_version = ">= 0.12.26"
 }
 
-output "my_ip_address" {
-    value="192.168.1.13"
+output "my_bucket_name" {
+    value="test_bucket_123"
 }
 
 output "demourl" {
