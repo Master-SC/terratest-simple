@@ -30,6 +30,7 @@ func TestTerraformExample(t *testing.T) {
 	responseCode := p.GetInt("response.status", 0)           //Value for Test2 status code
 
 	t.Parallel()
+	
 	// retryable errors in terraform testing.
 	terraformOptions := terraform.WithDefaultRetryableErrors(t, &terraform.Options{
 		TerraformDir: "../examples",
