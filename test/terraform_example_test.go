@@ -51,4 +51,5 @@ func TestTerraformExample(t *testing.T) {
 	//func HttpGetWithRetry(t testing.TestingT, url string, tlsConfig *tls.Config, expectedStatus int, expectedBody string, retries int, sleepBetweenRetries time.Duration)
 	url := terraform.Output(t, terraformOptions, "demourl")
 	http_helper.HttpGetWithRetry(t, url, nil, responseCode, body, 5, 5*time.Second)
+	
 }
