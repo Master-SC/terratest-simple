@@ -9,3 +9,5 @@ output "my_bucket_name" {
 output "demourl" {
   value = "https://reqres.in/api/users/2"
 }
+
+
